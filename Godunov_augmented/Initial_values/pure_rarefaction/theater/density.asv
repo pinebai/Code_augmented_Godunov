@@ -1,0 +1,27 @@
+% 	program density
+
+	load d:\Godunov_augmented\show\reconstruction.dat;
+    
+    x=reconstruction(:,1);
+    y=reconstruction(:,2);
+    z=reconstruction(:,3);
+    
+    load d:\Godunov_augmented\show\grid.dat;
+    nn=grid(1);
+    dd=0.5*(x(2)-x(1))
+        
+    for i=1, nn
+        xl=x(i)-dd;
+        xr=x(i)+dd;
+        
+	plot(x,y,'Or'); 
+    hold on;
+    
+    load d:\Godunov_augmented\show\exact\exact_solution.dat
+    xx=exact_solution(:,1);
+    yy=exact_solution(:,2);
+    plot(xx,yy,'-');
+    hold off
+            
+    axis([-0.1 1.1 0.0 1.1]);
+   

@@ -1,0 +1,26 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: exact_solution - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\ADMINI~1\LOCALS~1\Temp\RSP1CD.tmp" with contents
+[
+/check:bounds /compile_only /debug:full /nologo /traceback /warn:argument_checking /warn:nofileopt /module:"Debug/" /object:"Debug/" /pdbfile:"Debug/DF60.PDB" 
+"D:\Godunov_augmented\Initial_values\sine_waves\exact_solution\exact.f90"
+]
+Creating command line "link.exe kernel32.lib /nologo /subsystem:console /incremental:no /pdb:"Debug/exact_solution.pdb" /debug /machine:I386 /out:"Debug/exact_solution.exe" /pdbtype:sept  .\Debug\exact.obj "
+<h3>Output Window</h3>
+Compiling Fortran...
+D:\Godunov_augmented\Initial_values\sine_waves\exact_solution\exact.f90
+Linking...
+
+
+
+<h3>Results</h3>
+exact_solution.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
